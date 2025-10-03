@@ -19,8 +19,8 @@ const Heading = () => {
     <div className="flex flex-row justify-between items-center p-2 text-lg relative text-rgb(19, 222, 222) text-white">
       {/* Logo */}
       <div>
-        <img
-          src=""
+        <img  className="w-10 h-10"
+          src="/src/assets/logo.png"
           alt="logo"
         />
       </div>

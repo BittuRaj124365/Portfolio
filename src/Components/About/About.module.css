@@ -1,0 +1,71 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+  
+}
+
+/* Paragraph styling */
+.about p {
+  margin-left: 2rem;
+  flex: 1;
+  /* font-size: 1rem; */
+  text-align: left;
+  line-height: 1.6;
+  font-size: large;
+  color:rgb(179, 211, 211);
+}
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+  .about p {
+    text-align: left;
+    margin-bottom: 1rem;
+    margin: 0;
+  }
+}
+
+/* Image container */
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  width: 60%;
+  max-width: 300px;
+  height: auto;
+  transition: transform 0.3s ease;
+  border-radius: 40px;
+}
+
+/* Hover effect */
+.image img:hover {
+  transform: scale(1.05);
+}
+
+/* Small screens */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column-reverse; /* image below text */
+    text-align: center;
+  }
+
+  .about p {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .image img {
+    width: 70%; /* take full width on mobile */
+    max-width: 300px; /* neat size */
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+  }
+}

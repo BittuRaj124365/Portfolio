@@ -2,15 +2,17 @@
     padding-top:4rem;
     /* padding-left:2rem; */
     margin:15px;
-    height:100px;
+    height:500px;
     width:70%;
+    color:rgb(179, 211, 211);
 }
 .intro p{
-    font-weight:500;
-    
+    font-weight:400;
+    /* margin-left: 1rem; */
+    margin-bottom: 10px;
 }
 .intro h3{
-    font-weight:500;
+    /* font-weight:500; */
     font-size: x-large;
     /* add media query here for mobile version */
     @media (max-width:475px){
