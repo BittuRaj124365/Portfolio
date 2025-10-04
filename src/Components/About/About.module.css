@@ -9,7 +9,7 @@
 }
 
 /* Paragraph styling */
-.about p {
+.about h5 {
   margin-left: 2rem;
   flex: 1;
   /* font-size: 1rem; */

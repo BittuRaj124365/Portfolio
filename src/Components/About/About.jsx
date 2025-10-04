@@ -3,7 +3,7 @@ import style from "./About.module.css";
 const About = () => {
   return (
     <div className={style.about} >
-      <p>
+      <h5>
         <h1 style={{color:"rgb(17, 20, 20)"}}>About me</h1>
         I am a passionate web developer currently pursuing my degree in
         University of Delhi. I enjoy creating interactive and user-friendly web
@@ -20,7 +20,7 @@ const About = () => {
         creativity, dedication, and growth as a developer, and I am always
         excited to take on new challenges that help me learn and contribute more
         to the tech world.
-      </p>
+      </h5>
       <div className={style.image}>
         <img src="/src/assets/image.png
         " alt="img" />
