@@ -38,10 +38,10 @@
 
 .image img {
   width: 60%;
-  max-width: 300px;
+  max-width: 250px;
   height: auto;
   transition: transform 0.3s ease;
-  border-radius: 40px;
+  border-radius: 20px 0 20px 0px;
 }
 
 /* Hover effect */

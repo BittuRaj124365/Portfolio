@@ -7,9 +7,16 @@
   display: flex;
   gap: 15px;
   margin-right: 50px;
-  margin-left:30px;
+  margin-left: 30px;
+  align-items: left;
   list-style: none;
   font-size: large;
+  z-index: 100;
+  /* position: fixed; */
+  right: 1rem;
+  top: 0rem;
+  height: 40px;
+  backdrop-filter: blur(30px);
 }
 
 .nav a {
@@ -22,10 +29,11 @@
   color: rgb(116, 255, 255);
   font-weight: 600;
 }
-
-img {
+.icon {
   width: 50px;
-  height: 80px;
+  font-size: x-large;
+  margin-left:1rem;
+  margin-top:1rem;
 }
 
 .menuBtn {
@@ -36,28 +44,30 @@ img {
   background: none;
   border: none;
   cursor: pointer;
+  position: fixed;
+  right: 0.4rem;
+  z-index: 1000;
 }
-
 /* Small screen styles */
 @media (max-width: 475px) {
   .menuBtn {
     display: block;
   }
 
-  .img{
+  .img {
     font-size: small;
   }
   .nav {
-    position: fixed;        
+    position: fixed;
     top: 0;
-    right: -200px;     
+    right: -200px;
     width: 250px;
     height: 100vh;
-    background:rgba(48, 79, 79, 0.9);
-    padding-top: 80px;       
+    background: rgba(48, 79, 79, 0.9);
+    padding-top: 80px;
     flex-direction: column;
     align-items: center;
-    transition: right 0.3s ease; 
+    transition: right 0.3s ease;
     z-index: 1000;
   }
 
@@ -67,7 +77,7 @@ img {
   }
 
   .show {
-    right: 0px;   /* from right side  */
+    right: 0px; /* from right side  */
     border-radius: 4px;
   }
 
@@ -78,8 +88,8 @@ img {
 
 .closeBtn {
   position: absolute;
-  top: 13px;
-  right: 12px;
+  top: 15px;
+  right: 11px;
   font-size: 40px;
   color: rgb(255, 57, 2);
   background: none;

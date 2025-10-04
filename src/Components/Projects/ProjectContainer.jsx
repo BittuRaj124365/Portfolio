@@ -33,7 +33,8 @@ const ProjectContainer = () => {
       />
       <ProjectStructure
         image={projectImage3}
-        title={"Farming Assistance website"}
+        title={"Farming Assistance website"}y
+        
         description={
           "A web-based Farming Assistance platform built with basic tech stacks that provides farmers with essential crop information, weather updates, and sustainable farming tips. The project includes an integrated chatbot that allows users to ask farming-related queries in real time, making the platform interactive and more helpful. Designed with a simple, responsive, and user-friendly interface to ensure accessibility for all users."
         }

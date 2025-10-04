@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import style from "./Heading.module.css";
-
+import { GiBookAura } from "react-icons/gi";
 const Heading = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -18,11 +18,8 @@ const Heading = () => {
   return (
     <div className="flex flex-row justify-between items-center p-2 text-lg relative text-rgb(19, 222, 222) text-white">
       {/* Logo */}
-      <div>
-        <img  className="w-10 h-10"
-          src="/src/assets/logo.png"
-          alt="logo"
-        />
+      <div className={style.icon}>
+        <GiBookAura />
       </div>
 
       {/* Toggle button - only visible on small screens */}
