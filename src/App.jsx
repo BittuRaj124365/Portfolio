@@ -8,6 +8,7 @@ import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
 import ProjectContainer1 from "./Components/Projects/ProjectContainer1";
 import ProjectContainer2 from "./Components/Projects/ProjectContainer2";
+import ProjectContainer3 from "./Components/Projects/ProjectContainer3";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <ProjectContainer1 />
       <ProjectContainer2/>
+      <ProjectContainer3/>
     </>
   );
 }

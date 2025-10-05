@@ -1,7 +1,7 @@
 import { GoLinkExternal } from "react-icons/go";
 import { RxGithubLogo } from "react-icons/rx";
-import styles from "./ProjStru.module.css";
-const ProjectStru = ({
+import styles from "./ProjectStructure2.module.css";
+const ProjectStructure2 = ({
   image,
   title,
   description,
@@ -46,4 +46,4 @@ const ProjectStru = ({
   );
 };
 
-export default ProjectStru;
+export default ProjectStructure2;

@@ -1,6 +1,6 @@
 import React from "react";
-import ProjectStru from "./Project2/ProjectStru";
-import styles from "./Project2/ProjStru.module.css";
+import ProjectStructure from "./Project2/ProjectStructure2";
+import styles from "./Project2/ProjectStructure2.module.css";
 import project1 from "../../assets/project1.jpg";
 import project2 from "../../assets/project2.jpg";
 import project3 from "../../assets/project3.png";
@@ -41,7 +41,7 @@ const ProjectContainer2 = () => {
   return (
     <div className={styles.container}>
       {projects.map((proj, index) => (
-        <ProjectStru key={index} {...proj} />
+        <ProjectStructure key={index} {...proj} />
       ))}
     </div>
   );

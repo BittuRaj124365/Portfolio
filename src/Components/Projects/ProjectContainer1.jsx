@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectStructure from "./Project/ProjectStructure";
+import ProjectStructure from "./Project1/ProjectStructure1";
 import projectImage1 from "../../assets/project1.jpg";
 import projectImage2 from "../../assets/project2.jpg";
 import projectImage3 from '../../assets/project3.png'
