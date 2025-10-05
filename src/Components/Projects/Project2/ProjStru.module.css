@@ -1,5 +1,6 @@
 .card {
-  background-color: rgb(41, 71, 71);
+  /* background-color: rgb(41, 71, 71); */
+  background-color: rgb(30, 80, 84);
   border-radius: 12px;
   padding: 1rem;
   width: 30%;
@@ -12,7 +13,9 @@
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); */
+  box-shadow: 2px 2px 15px 3px rgb(34, 154, 146);
+  /* background-color: rgb(30, 80, 84); */
 }
 
 .image {
@@ -53,6 +56,11 @@
   padding: 0.3rem 0.7rem;
   border-radius: 6px;
   font-size: 0.85rem;
+  cursor: pointer;
+  &:hover {
+    color: #ee2b09;
+    background-color: aliceblue;
+  }
 }
 
 .links {
@@ -99,7 +107,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  gap: 2rem;
+  gap: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 /* Make it stack vertically only on smaller screens */
