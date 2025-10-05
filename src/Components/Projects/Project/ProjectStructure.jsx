@@ -1,4 +1,3 @@
-import React from "react";
 import { GoLinkExternal } from "react-icons/go";
 import { RxGithubLogo } from "react-icons/rx";
 import styles from "./ProjectStructure.module.css";

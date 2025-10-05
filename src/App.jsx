@@ -6,7 +6,8 @@ import Heading from "./Components/Heading/Heading";
 import Introduction from "./Components/Introduction/Introduction";
 import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
-import ProjectContainer from "./Components/Projects/ProjectContainer";
+import ProjectContainer1 from "./Components/Projects/ProjectContainer1";
+import ProjectContainer2 from "./Components/Projects/ProjectContainer2";
 function App() {
   return (
     <>
@@ -14,7 +15,8 @@ function App() {
       <Introduction />
       <About />
       <Skills />
-      <ProjectContainer />
+      <ProjectContainer1 />
+      <ProjectContainer2/>
     </>
   );
 }

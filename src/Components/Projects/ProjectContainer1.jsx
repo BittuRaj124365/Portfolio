@@ -3,13 +3,13 @@ import ProjectStructure from "./Project/ProjectStructure";
 import projectImage1 from "../../assets/project1.jpg";
 import projectImage2 from "../../assets/project2.jpg";
 import projectImage3 from '../../assets/project3.png'
-const ProjectContainer = () => {
+const ProjectContainer1 = () => {
   return (
     <div>
       <h1 style={{ textAlign: "center", margin: "20px" }}>My Projects</h1>
       <ProjectStructure
         image={projectImage1}
-        title={"wanderlust- A Travel Listing Website"}
+        title={"1.wanderlust- A Travel Listing Website"}
         description={`All routing operations are performed on localhost during development. Each CRUD functionality — from creating new listings to editing or deleting them — is handled through clean and well-defined routes. The local server ensures smooth execution of backend logic while rendering dynamic views using EJS templates. ${(
           <>
             <br />
@@ -23,7 +23,7 @@ const ProjectContainer = () => {
       />
       <ProjectStructure
         image={projectImage2}
-        title={"postify"}
+        title={"2.postify"}
         description={
           "All routing operations are performed on localhost during development. Each CRUD functionality — from creating new blog posts to editing or deleting them — is handled through clean and well-defined routes. The local server ensures smooth execution of backend logic while rendering dynamic views using EJS templates. It's a dynamic platform where users can Create, Read, Update, and Delete blog posts — all powered through RESTful API architecture and structured CRUD operations."
         }
@@ -33,7 +33,7 @@ const ProjectContainer = () => {
       />
       <ProjectStructure
         image={projectImage3}
-        title={"Farming Assistance website"}y
+        title={"3.Farming Assistance website"}y
         
         description={
           "A web-based Farming Assistance platform built with basic tech stacks that provides farmers with essential crop information, weather updates, and sustainable farming tips. The project includes an integrated chatbot that allows users to ask farming-related queries in real time, making the platform interactive and more helpful. Designed with a simple, responsive, and user-friendly interface to ensure accessibility for all users."
@@ -46,4 +46,4 @@ const ProjectContainer = () => {
   );
 };
 
-export default ProjectContainer;
+export default ProjectContainer1;
