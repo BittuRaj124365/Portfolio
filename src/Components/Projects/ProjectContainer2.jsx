@@ -6,12 +6,12 @@ import project2 from "../../assets/project2.jpg";
 import project3 from "../../assets/project3.png";
 import porject4 from "../../assets/project4.jpg";
 import project5 from "../../assets/project5.png";
-import project6 from "../../assets/project6.jpeg";
+import project6 from "../../assets/amazonClone.jpeg";
 const ProjectContainer2 = () => {
   const projects = [
     {
       image: porject4,
-      title: "Number-Guessing",
+      title: "4.Number-Guessing",
       description:
         "A beginner-friendly Python project that uses the random module to generate a secret number. The player must guess the correct number with guidance provided after each attempt. Perfect for practicing loops, conditionals, and user input handling in Python.",
       techStack: ["Python"],
@@ -20,19 +20,19 @@ const ProjectContainer2 = () => {
     },
     {
       image: project5,
-      title: "Cafe-Management",
+      title: "5.Cafe-Management",
       description:
-        "A simple Python-based Cafe Management System that allows customers to place multiple orders from a menu, calculates the total bill automatically, and handles unavailable items gracefully. Perfect for learning dictionaries, loops, and input handling in Python.",
+        "A simple Python-based Cafe Management System that allows customers to place multiple orders from a menu, calculates the total bill automatically, and handles unavailable items gracefully.",
       techStack: ["Python"],
       githubLink: "https://github.com/BittuRaj124365/cafeManagementSystem.git",
       liveLink: "#",
     },
     {
       image: project6,
-      title: "Amazon Clone",
+      title: "6.Amazon Clone",
       description:
-        "A visual replica of the Amazon website, copying the layout, design, and product arrangement for practice and portfolio purposes.",
-      techStack: ["HTML5","CSS3"],
+        "A visual replica of the Amazon website, copying the layout, design, and product arrangement for practice and portfolio purposes.This static clone focuses on recreating the UI to demonstrate front-end skills and attention to detail.",
+      techStack: ["HTML5", "CSS3"],
       githubLink: "https://github.com/BittuRaj124365/amazonClone.git",
       liveLink: "https://bitturaj124365.github.io/amazonClone/",
     },

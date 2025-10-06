@@ -9,7 +9,7 @@ const ProjectContainer3 = () => {
   const projects = [
     {
       image: ProjectImage7,
-      title: "Account Registration",
+      title: "7.Account Registration",
       description:
         "This project is a simple, console-based User Management System built using Object-Oriented Programming (OOPs) principles in C++. The system provides core functionalities required to manage user accounts within an application.",
       techStack: ["C++"],
@@ -28,7 +28,7 @@ const ProjectContainer3 = () => {
     // },
     {
       image: ProjectImage9,
-      title: "ToDo App",
+      title: "8.ToDo App",
       description:
         "A simple Python-based console application to manage daily tasks. It allows users to add, update, delete, and view tasks interactively, providing an easy way to stay organized through a command-line interface.",
       techStack: ["Python"],
@@ -37,7 +37,7 @@ const ProjectContainer3 = () => {
     },
     {
       image: ProjectImage10,
-      title: "Random Password",
+      title: "9.Random Password",
       description:
         "A simple Python program that generates strong, random passwords using letters, numbers, and symbols. It helps create secure passwords instantly, ensuring better data protection and privacy.",
       techStack: ["Python"],
