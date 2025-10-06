@@ -11,6 +11,10 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.centered{
+    text-align: center;
+    width:100%;
+}
 
 .card:hover {
   transform: scale(1.05);

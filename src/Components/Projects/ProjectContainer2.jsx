@@ -40,6 +40,7 @@ const ProjectContainer2 = () => {
 
   return (
     <div className={styles.container}>
+      <h1 className={styles.centered}>Some More Projects</h1>
       {projects.map((proj, index) => (
         <ProjectStructure key={index} {...proj} />
       ))}
