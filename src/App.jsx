@@ -9,6 +9,7 @@ import Skills from "./Components/Skills/Skills";
 import ProjectContainer1 from "./Components/Projects/ProjectContainer1";
 import ProjectContainer2 from "./Components/Projects/ProjectContainer2";
 import ProjectContainer3 from "./Components/Projects/ProjectContainer3";
+import Experience from "./Components/Experience/Experience";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
       <ProjectContainer1 />
       <ProjectContainer2/>
       <ProjectContainer3/>
+      <Experience/>
     </>
   );
 }

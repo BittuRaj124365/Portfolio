@@ -68,9 +68,9 @@ const ProjectContainer3 = () => {
 
   const handleToggle = () => {
     if (visibleCount === projects.length) {
-      setVisibleCount(initialVisible); 
+      setVisibleCount(initialVisible);
     } else {
-      setVisibleCount(projects.length); 
+      setVisibleCount(projects.length);
     }
   };
 
@@ -92,13 +92,13 @@ const ProjectContainer3 = () => {
       </div>
 
       {/* Show More / Show Less Button */}
-      <div style={{ textAlign: "center", marginTop: "20px" }}>
+      <div style={{ textAlign: "center",marginLeft:"50px", marginTop: "20px" }}>
         <button
           className={styles.button} // reusing existing button style
           onClick={handleToggle}
         >
           {visibleCount === projects.length
-            ? "Show Less"
+            ? "Hide Some Projects"
             : "Show More Projects"}
         </button>
       </div>

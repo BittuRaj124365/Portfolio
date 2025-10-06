@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./About.module.css";
+import Spline from "@splinetool/react-spline";
 const About = () => {
   return (
     <div className={style.about} >
