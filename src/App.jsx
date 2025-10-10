@@ -10,6 +10,7 @@ import ProjectContainer1 from "./Components/Projects/ProjectContainer1";
 import ProjectContainer2 from "./Components/Projects/ProjectContainer2";
 import ProjectContainer3 from "./Components/Projects/ProjectContainer3";
 import Experience from "./Components/Experience/Experience";
+import Contact from "./Components/Contact/Contact";
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
       <ProjectContainer2/>
       <ProjectContainer3/>
       <Experience/>
+      <Contact/>
     </>
   );
 }
