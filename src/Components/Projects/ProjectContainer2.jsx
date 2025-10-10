@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectStructure from "./Project2/ProjectStructure2";
 import styles from "./Project2/ProjectStructure2.module.css";
-import project1 from "../../assets/project1.jpg";
-import project2 from "../../assets/project2.jpg";
-import project3 from "../../assets/project3.png";
+// import project1 from "../../assets/project1.jpg";
+// import project2 from "../../assets/project2.jpg";
+// import project3 from "../../assets/project3.png";
 import porject4 from "../../assets/project4.jpg";
 import project5 from "../../assets/project5.png";
 import project6 from "../../assets/amazonClone.jpeg";
@@ -25,7 +25,7 @@ const ProjectContainer2 = () => {
         "A simple Python-based Cafe Management System that allows customers to place multiple orders from a menu, calculates the total bill automatically, and handles unavailable items gracefully.",
       techStack: ["Python"],
       githubLink: "https://github.com/BittuRaj124365/cafeManagementSystem.git",
-      liveLink: "#",
+      // liveLink: "#",
     },
     {
       image: project6,

@@ -10,3 +10,21 @@ body {
 h1 {
   font-weight: 700;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a centered page wrapper for all sections */
+.site-wrapper, .app, .container-global {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto !important;    /* force center, remove temporary left offsets */
+  padding: 0 1rem;
+  box-sizing: border-box;
+}

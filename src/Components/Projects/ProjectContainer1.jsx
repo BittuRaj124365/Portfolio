@@ -6,7 +6,7 @@ import projectImage3 from '../../assets/project3.png'
 const ProjectContainer1 = () => {
   return (
     <div>
-      <h2 style={{ textAlign: "center", margin: "20px", color:"white" }}>My Projects</h2>
+      <h2 style={{ textAlign: "center", margin: "25px", color:"#ccdcf6",fontSize:"x-large" }}>My Projects</h2>
       <ProjectStructure
         image={projectImage1}
         title={"1.wanderlust- A Travel Listing Website"}

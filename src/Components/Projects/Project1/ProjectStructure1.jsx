@@ -1,3 +1,4 @@
+import React from "react";
 import { GoLinkExternal } from "react-icons/go";
 import { RxGithubLogo } from "react-icons/rx";
 import styles from "./ProjectStructure1.module.css";
@@ -10,7 +11,8 @@ const ProjectStructure1 = ({
   liveLink,
 }) => {
   return (
-    <div className={styles.card}>
+    <div id="project"
+    className={styles.card}>
       <div className={styles.imageWrapper}>
         <img src={image} alt={title} className={styles.image} />
       </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./Introduction.module.css";
-import styles from './IntroImage.module.css'
 const Introduction = () => {
   return (
-    <div className="flex justify-around">
+    <div id="home"
+    className="flex justify-around">
       <div className={style.intro}>
         <p>Hii, My name is </p>
         <h1 style={{color:"rgb(17, 20, 20)"}}>Bittu Raj</h1>

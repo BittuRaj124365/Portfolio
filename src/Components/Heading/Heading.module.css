@@ -1,6 +1,30 @@
+/* temp  */
+/* Smart sticky header wrapper */
+.navbarWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(30, 80, 84);
+  box-shadow: 1px 2px 2px rgb(80, 151, 151);
+  transition: transform 0.4s ease-in-out;
+}
+
+/* When scrolling up - visible */
+.show {
+  transform: translateY(0);
+}
+
+/* When scrolling down - hidden */
+.hide {
+  transform: translateY(-100%);
+}
+
+
 .nav {
   padding-top: 1rem;
-  box-shadow: 2px 4px 2px rgb(80, 151, 151);
+  /* box-shadow: 2px 4px 2px rgb(80, 151, 151); */
 }
 
 .nav ul {
@@ -31,9 +55,10 @@
 }
 .icon {
   width: 50px;
-  font-size: x-large;
+  font-size: xx-large;
   margin-left: 1rem;
   margin-top: 1rem;
+  cursor: pointer;
 }
 
 .menuBtn {
@@ -63,7 +88,7 @@
     right: -200px;
     width: 250px;
     height: 100vh;
-    background: rgba(48, 79, 79, 0.9);
+    background: rgba(62, 91, 91, 0.9);
     padding-top: 80px;
     flex-direction: column;
     align-items: center;

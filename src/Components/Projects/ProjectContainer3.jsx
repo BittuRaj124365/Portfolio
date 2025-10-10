@@ -92,7 +92,9 @@ const ProjectContainer3 = () => {
       </div>
 
       {/* Show More / Show Less Button */}
-      <div style={{ textAlign: "center",marginLeft:"50px", marginTop: "20px" }}>
+      <div
+        style={{ textAlign: "center", marginLeft: "50px", marginTop: "20px" }}
+      >
         <button
           className={styles.button} // reusing existing button style
           onClick={handleToggle}
