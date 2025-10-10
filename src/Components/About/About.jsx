@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./About.module.css";
+import InteractiveImage from "../../ImageStyle/InteractiveStyle";
 const About = () => {
   return (
     <>
@@ -35,11 +36,8 @@ const About = () => {
           contribute more to the tech world.
         </h5>
         <div className={style.image}>
-          <img
-            src="/src/assets/image.png
-        "
-            alt="img"
-          />
+          {/* <img src="/src/assets/image.png" alt="img" /> */}
+          <InteractiveImage src="/src/assets/image.png" alt="img"/>
         </div>
       </div>
     </>
