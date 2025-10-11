@@ -6,7 +6,19 @@
   padding: 2rem;
   flex-wrap: wrap;
 }
-
+.head {
+  color: rgb(17, 20, 20);
+  font-size: large;
+  margin-left: 6rem;
+  color: #ccdcf6;
+  letter-spacing: 2px;
+  transition: all 0.2s ease;
+  &:hover {
+    color: #ffffff;
+    /* transform: translateY(-4px); */
+    filter: drop-shadow(0 2px 2px rgba(41, 182, 182, 0.4));
+  }
+}
 /* Paragraph styling */
 .about h5 {
   margin-left: 4rem;
@@ -15,7 +27,7 @@
   text-align: left;
   line-height: 1.6;
   font-size: large;
-  color:rgb(179, 211, 211);
+  color: rgb(179, 211, 211);
 }
 @media (max-width: 768px) {
   .about {

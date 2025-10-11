@@ -13,9 +13,9 @@ const Contact = () => {
       className={`min-h-screen flex flex-col justify-center items-center text-white px-6 py-12 ${styles.contactSection}`}
       id="contact"
     >
-      <h2 className="text-3xl text-#ccdcf6 md:text-4xl font-semibold mb-8 tracking-wide">
+      <h3 className="text-4xl text-#ccdcf6 md:text-2xl font-semibold mb-8 tracking-wide">
         Get in Touch
-      </h2>
+      </h3>
 
       {/* Links */}
       <div className="flex flex-wrap justify-center gap-8 mb-10">

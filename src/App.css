@@ -28,3 +28,28 @@ html, body, #root {
   padding: 0 1rem;
   box-sizing: border-box;
 }
+
+/* for scroll styling  */
+
+/* ==== SCROLLBAR STYLING ==== */
+::-webkit-scrollbar {
+  width: 7px; 
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00ffff, #0077ff);
+  box-shadow: 0 0 10px #00ffff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: black; 
+            /* background of the track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00c6ff, #0072ff); /* color of the scroll thumb */
+  border-radius: 10px;
+}
+
+

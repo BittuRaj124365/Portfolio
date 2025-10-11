@@ -33,7 +33,7 @@ const ProjectStructure3 = ({
               rel="noopener noreferrer"
               className={styles.button}
             >
-              <RxGithubLogo /> GitHub
+              <RxGithubLogo />
             </a>
           )}
           {liveLink && (
@@ -43,7 +43,7 @@ const ProjectStructure3 = ({
               rel="noopener noreferrer"
               className={styles.button}
             >
-              <GoLinkExternal /> Live
+              <GoLinkExternal />
             </a>
           )}
         </div>

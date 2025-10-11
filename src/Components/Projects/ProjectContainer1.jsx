@@ -1,12 +1,22 @@
 import React from "react";
+import style from './Project1/ProjectStructure1.module.css';
 import ProjectStructure from "./Project1/ProjectStructure1";
 import projectImage1 from "../../assets/project1.jpg";
 import projectImage2 from "../../assets/project2.jpg";
-import projectImage3 from '../../assets/project3.png'
+import projectImage3 from "../../assets/project3.png";
 const ProjectContainer1 = () => {
   return (
     <div>
-      <h2 style={{ textAlign: "center", margin: "25px", color:"#ccdcf6",fontSize:"x-large" }}>My Projects</h2>
+      <h2 className={style.heading}
+        // style={{
+        //   textAlign: "center",
+        //   margin: "25px",
+        //   color: "#ccdcf6",
+        //   fontSize: "x-large",
+        // }}
+      >
+        My Projects
+      </h2>
       <ProjectStructure
         image={projectImage1}
         title={"1.wanderlust- A Travel Listing Website"}
@@ -19,7 +29,7 @@ const ProjectContainer1 = () => {
         githubLink={
           "https://github.com/BittuRaj124365/wanderLust-Travel-Listing-App.git"
         }
-        liveLink={"#"}
+        // liveLink={"#"}
       />
       <ProjectStructure
         image={projectImage2}
@@ -29,17 +39,19 @@ const ProjectContainer1 = () => {
         }
         techStack={["Node.js", "Express.js", "EJS", "UUID", "Middlewares"]}
         githubLink={"https://github.com/BittuRaj124365/postify.git"}
-        liveLink={"#"}
+        // liveLink={"#"}
       />
       <ProjectStructure
         image={projectImage3}
-        title={"3.Farming Assistance website"}y
-        
+        title={"3.Farming Assistance website"}
+        y
         description={
           "A web-based Farming Assistance platform built with basic tech stacks that provides farmers with essential crop information, weather updates, and sustainable farming tips. The project includes an integrated chatbot that allows users to ask farming-related queries in real time, making the platform interactive and more helpful. Designed with a simple, responsive, and user-friendly interface to ensure accessibility for all users."
         }
         techStack={["HTML5", "CSS3", "JavaScript(ES6+)"]}
-        githubLink={"https://github.com/BittuRaj124365/farmingAssistanceWebsite.git"}
+        githubLink={
+          "https://github.com/BittuRaj124365/farmingAssistanceWebsite.git"
+        }
         liveLink={"https://bitturaj124365.github.io/farmingAssistanceWebsite/"}
       />
     </div>

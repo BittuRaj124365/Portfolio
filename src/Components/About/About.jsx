@@ -4,17 +4,9 @@ import InteractiveImage from "../../ImageStyle/InteractiveStyle";
 const About = () => {
   return (
     <>
-      <h1
-        id="about"
-        style={{
-          color: "rgb(17, 20, 20)",
-          fontSize: "large",
-          marginLeft: "6rem",
-          color: "#ccdcf6",
-        }}
-      >
+      <h3 className={style.head} id="about">
         About me
-      </h1>
+      </h3>
       <div className={style.about}>
         <h5>
           I am a passionate web developer currently pursuing my degree in
@@ -37,7 +29,7 @@ const About = () => {
         </h5>
         <div className={style.image}>
           {/* <img src="/src/assets/image.png" alt="img" /> */}
-          <InteractiveImage src="/src/assets/image.png" alt="img"/>
+          <InteractiveImage src="/src/assets/image.png" alt="img" />
         </div>
       </div>
     </>

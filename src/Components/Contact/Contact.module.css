@@ -19,6 +19,7 @@
   color: rgb(29, 27, 27);
   font-weight: 500;
   font-size: larger;
+  margin-bottom: 5rem;
   padding: 0.8rem 2.2rem;
   border-radius: 2px;
   transition: all 0.3s ease-in-out;

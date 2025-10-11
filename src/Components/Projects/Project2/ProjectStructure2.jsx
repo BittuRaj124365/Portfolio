@@ -30,16 +30,16 @@ const ProjectStructure2 = ({
             rel="noopener noreferrer"
             className={styles.button}
           >
-            <RxGithubLogo /> GitHub
+            <RxGithubLogo />
           </a>
-          <a
+          {/* <a
             href={liveLink}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.button}
           >
             <GoLinkExternal /> Live
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

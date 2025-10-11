@@ -22,7 +22,7 @@ const ProjectContainer2 = () => {
       image: project5,
       title: "5.Cafe-Management",
       description:
-        "A simple Python-based Cafe Management System that allows customers to place multiple orders from a menu, calculates the total bill automatically, and handles unavailable items gracefully.",
+        "A simple Python-based Cafe Management System that allows customers to place multiple orders from a menu, calculates the total bill automatically, and handles unavailable items gracefully.With very friendly user experience",
       techStack: ["Python"],
       githubLink: "https://github.com/BittuRaj124365/cafeManagementSystem.git",
       // liveLink: "#",
@@ -40,7 +40,7 @@ const ProjectContainer2 = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.centered}>Some More Projects</h1>
+      <h4 className={styles.centered}>Some More Projects</h4>
       {projects.map((proj, index) => (
         <ProjectStructure key={index} {...proj} />
       ))}

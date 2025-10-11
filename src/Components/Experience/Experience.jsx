@@ -4,8 +4,8 @@ import styles from "./Experience.module.css";
 const Experience = () => {
   return (
     <>
-      <h1 id="experience"
-      className={styles.heading}>My Experiences</h1>
+      <h3 id="experience"
+      className={styles.heading}>Some Major Experiences</h3>
       <div className={styles.Experience}>
         <div className={styles.ExperienceBox}>
           <img
