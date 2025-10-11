@@ -85,6 +85,7 @@
   transition: all 0.3s ease;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
+
 .button:hover {
   background: linear-gradient(135deg, #78534c, #a9a784);
   transform: scale(1);

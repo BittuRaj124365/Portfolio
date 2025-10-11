@@ -43,7 +43,7 @@ const ProjectStructure3 = ({
               rel="noopener noreferrer"
               className={styles.button}
             >
-              <GoLinkExternal />
+              <GoLinkExternal /> 
             </a>
           )}
         </div>

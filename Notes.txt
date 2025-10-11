@@ -15,3 +15,15 @@ normal{
   font-weight: 500;
   transition: all 0.3s ease;
 }
+
+
+{
+      image: ProjectImage7,
+      title: "7.Account Registration",
+      description:
+        "This project is a simple, console-based User Management System built using Object-Oriented Programming (OOPs) principles in C++. The system provides core functionalities required to manage user accounts within an application.",
+      techStack: ["C++"],
+      githubLink:
+        "https://github.com/BittuRaj124365/accountRegistrationForm.git",
+      liveLink: "#",
+    },

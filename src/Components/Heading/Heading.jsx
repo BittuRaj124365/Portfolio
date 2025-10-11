@@ -31,6 +31,7 @@ const Heading = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
   return (
+    <>
     <div
       className={`${style.navbarWrapper} ${showNav ? style.show : style.hide}`}
     >
@@ -86,6 +87,7 @@ const Heading = () => {
         </nav>
       </div>
     </div>
+    </>
   );
 };
 

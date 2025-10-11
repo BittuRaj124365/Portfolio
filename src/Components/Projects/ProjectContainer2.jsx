@@ -1,12 +1,9 @@
 import React from "react";
 import ProjectStructure from "./Project2/ProjectStructure2";
 import styles from "./Project2/ProjectStructure2.module.css";
-// import project1 from "../../assets/project1.jpg";
-// import project2 from "../../assets/project2.jpg";
-// import project3 from "../../assets/project3.png";
 import porject4 from "../../assets/project4.jpg";
 import project5 from "../../assets/project5.png";
-import project6 from "../../assets/amazonClone.jpeg";
+import project6 from "../../assets/Project7.png";
 const ProjectContainer2 = () => {
   const projects = [
     {
@@ -29,12 +26,13 @@ const ProjectContainer2 = () => {
     },
     {
       image: project6,
-      title: "6.Amazon Clone",
+      title: "6.Account Registration",
       description:
-        "A visual replica of the Amazon website, copying the layout, design, and product arrangement for practice and portfolio purposes.This static clone focuses on recreating the UI to demonstrate front-end skills and attention to detail.",
-      techStack: ["HTML5", "CSS3"],
-      githubLink: "https://github.com/BittuRaj124365/amazonClone.git",
-      liveLink: "https://bitturaj124365.github.io/amazonClone/",
+        "This project is a simple, console-based User Management System built using Object-Oriented Programming (OOPs) principles in C++. The system provides core functionalities required to manage user accounts within an application.",
+      techStack: ["C++"],
+      githubLink:
+        "https://github.com/BittuRaj124365/accountRegistrationForm.git",
+      liveLink: "#",
     },
   ];
 
