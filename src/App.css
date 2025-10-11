@@ -7,24 +7,40 @@ body {
   font-weight: 400;
   font-size: 16px;
 }
+#root,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 h1 {
   font-weight: 700;
 }
 html {
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 /* Apply a centered page wrapper for all sections */
-.site-wrapper, .app, .container-global {
+.site-wrapper,
+.app,
+.container-global {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto !important;    /* force center, remove temporary left offsets */
+  margin: 0 auto !important; /* force center, remove temporary left offsets */
   padding: 0 1rem;
   box-sizing: border-box;
 }
@@ -33,7 +49,7 @@ html, body, #root {
 
 /* ==== SCROLLBAR STYLING ==== */
 ::-webkit-scrollbar {
-  width: 7px; 
+  width: 7px;
 }
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(180deg, #00ffff, #0077ff);
@@ -42,14 +58,16 @@ html, body, #root {
 }
 
 ::-webkit-scrollbar-track {
-  background: black; 
-            /* background of the track */
+  background: black;
+  /* background of the track */
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #00c6ff, #0072ff); /* color of the scroll thumb */
+  background: linear-gradient(
+    180deg,
+    #00c6ff,
+    #0072ff
+  ); /* color of the scroll thumb */
   border-radius: 10px;
 }
-
-

@@ -9,9 +9,9 @@
   border-radius: 20px 10px 20px 0;
   transition: transform 0.2s ease;
   cursor: pointer;
-  &:hover {
-    box-shadow: 2px 2px 4px rgb(56, 211, 182);
-  }
+}
+.image:hover {
+  box-shadow: 2px 2px 4px rgb(56, 211, 182);
 }
 
 @media (max-width: 768px) {

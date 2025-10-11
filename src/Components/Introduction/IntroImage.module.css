@@ -1,17 +1,17 @@
-.introImage{
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: space-between;
-    flex-wrap: wrap;
-    box-shadow: 2px 2px 2px 2px rgb(51, 83, 83);
-    margin-top:4rem;
-    margin-right:3rem;
-    &:hover{
-        height:202px;
-        width: 202px;
-    }
+.introImage {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 2px 2px 2px 2px rgb(51, 83, 83);
+  margin-top: 4rem;
+  margin-right: 3rem;
 }
-.introImage img{
-    height:200px;
-    width:200px;
+.introImage:hover {
+  height: 202px;
+  width: 202px;
+}
+.introImage img {
+  height: 200px;
+  width: 200px;
 }

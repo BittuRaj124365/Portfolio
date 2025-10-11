@@ -21,17 +21,17 @@
   transform: translateY(-15px);
 }
 .heading {
-  margin:25px;
+  margin: 25px;
   font-size: x-large;
   text-align: center;
   color: #ccdcf6;
   letter-spacing: 2px;
   transition: all 0.2s ease;
-  &:hover {
-    color: #ffffff;
-    /* transform: translateY(-4px); */
-    filter: drop-shadow(0 2px 2px rgba(41, 182, 182, 0.4));
-  }
+}
+.heading:hover {
+  color: #ffffff;
+  /* transform: translateY(-4px); */
+  filter: drop-shadow(0 2px 2px rgba(41, 182, 182, 0.4));
 }
 .imageWrapper {
   flex: 1;
@@ -88,10 +88,10 @@
   border-radius: 5px;
   font-size: 0.9rem;
   cursor: pointer;
-  &:hover {
-    color: #ee2b09;
-    background-color: aliceblue;
-  }
+}
+.techItem:hover {
+  color: #ee2b09;
+  background-color: aliceblue;
 }
 
 .links {
@@ -107,7 +107,8 @@
 }
 
 .icon:hover {
-  color: #0fd5e3;
+  /* color: #0fd5e3; */
+  color: black;
   font-size: 1.5rem;
   transform: scale(1.1);
 }

@@ -14,7 +14,7 @@ import TechBackground from "./BackgroundEffects/TechBackground";
 function App() {
   return (
     <>
-    <TechBackground/>
+      <TechBackground />
       <Heading />
       <Sidebutton />
       <Introduction />
