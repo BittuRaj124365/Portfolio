@@ -11,7 +11,7 @@ const ProjectContainer2 = () => {
   const projects = [
     {
       image: porject4,
-      title: "4.Number-Guessing",
+      title: "4.Number Guessing",
       description:
         "A beginner-friendly Python project that uses the random module to generate a secret number. The player must guess the correct number with guidance provided after each attempt. Perfect for practicing loops, conditionals, and user input handling in Python.",
       techStack: ["Python"],
@@ -20,7 +20,7 @@ const ProjectContainer2 = () => {
     },
     {
       image: project5,
-      title: "5.Cafe-Management",
+      title: "5.Cafe Management",
       description:
         "A simple Python-based Cafe Management System that allows customers to place multiple orders from a menu, calculates the total bill automatically, and handles unavailable items gracefully.With very friendly user experience",
       techStack: ["Python"],

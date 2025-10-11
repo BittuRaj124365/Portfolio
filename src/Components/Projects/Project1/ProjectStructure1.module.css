@@ -60,7 +60,8 @@
 }
 
 .title {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
   /* text-align: center; */
   color: rgb(192, 239, 230);
   margin-bottom: 0.5rem;
