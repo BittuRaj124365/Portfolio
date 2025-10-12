@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./Experience.module.css";
-// import hackathonImage from "../src/assets/hackathonImg.jpeg";
+import hackathonImage from "../../assets/hackathonImg.jpeg";
+import certificate1Image from "../../assets/certificate.png";
+import certificate2Image from "../../assets/certificate2.png";
 const Experience = () => {
   return (
     <>
@@ -9,7 +11,8 @@ const Experience = () => {
       <div className={styles.Experience}>
         <div className={styles.ExperienceBox}>
           <img
-            src="/src/assets/hackathonImg.jpeg"
+            // src="/src/assets/hackathonImg.jpeg"
+            src={hackathonImage}
             alt="Jaipur Hackathon"
             className={styles.ExperienceImage}
           />
@@ -23,7 +26,8 @@ const Experience = () => {
         </div>
         <div className={styles.ExperienceBox}>
           <img
-            src="/src/assets/certificate.png"
+            // src="/src/assets/certificate.png"
+            src={certificate1Image}
             alt="Jaipur Hackathon"
             className={styles.ExperienceImage}
           />
@@ -38,7 +42,8 @@ const Experience = () => {
         </div>
         <div className={styles.ExperienceBox}>
           <img
-            src="/src/assets/certificate2.png"
+            // src="/src/assets/certificate2.png"
+            src={certificate2Image}
             alt="Accenture-Data analytic and visualisation"
             className={styles.ExperienceImage}
           />
