@@ -73,10 +73,13 @@
   }
 
   .image img {
-    width: 70%; /* take full width on mobile */
-    max-width: 300px; /* neat size */
+    width: 50%; /* take full width on mobile */
+    max-width: 200px; /* neat size */
     height: auto;
-    margin-left:4rem;
+    margin-top: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-left:3rem;
     transition: transform 0.3s ease;
     border-radius: 10px;
   }
