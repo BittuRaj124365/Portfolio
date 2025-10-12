@@ -15,10 +15,6 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Deployment](#deployment)
-- [Contact](#contact)
-- [Future Improvements](#future-improvements)
 
 ---
 
