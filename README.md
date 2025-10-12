@@ -1,11 +1,15 @@
 # Bittu's Portfolio
 
-![Portfolio Screenshot](./preview.jpeg)
+![Portfolio Screenshot](/preview.jpeg)
 
 
 ---
 
+
 ## Some layouts and dimensions of the repo
+
+
+---
 
 [![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react&logoColor=white)](https://reactjs.org/) 
 [![Vite](https://img.shields.io/badge/Vite-4.0-purple?logo=vite&logoColor=white)](https://vitejs.dev/) 
