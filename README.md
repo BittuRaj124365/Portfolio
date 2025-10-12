@@ -1,6 +1,6 @@
 # Bittu's Portfolio
 
-![Portfolio Screenshot](./public/preview.jpeg)
+![Portfolio Screenshot](./preview.jpeg)
 
 
 ---
