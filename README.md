@@ -1,13 +1,17 @@
 # Bittu's Portfolio
 
-![Portfolio Screenshot](./public/image.png)
+![Portfolio Screenshot](./public/preview.jpeg)
+
+
+---
+
+## Some layouts and dimensions of the repo
 
 [![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react&logoColor=white)](https://reactjs.org/) 
 [![Vite](https://img.shields.io/badge/Vite-4.0-purple?logo=vite&logoColor=white)](https://vitejs.dev/) 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel&logoColor=white)](https://portfolio-nd4r.vercel.app)
 
----
 
 ## Table of Contents
 - [About the Project](#about-the-project)
@@ -25,7 +29,7 @@ It is designed to be **responsive, interactive, and visually appealing**, reflec
 ---
 
 ## Demo
-![Portfolio Demo GIF](./public/demo.gif) <!-- Optional: Add a GIF preview of your portfolio -->
+![Portfolio Demo GIF](./public/demo.gif)
 Live Site: [🌐 https://portfolio-nd4r.vercel.app](https://portfolio-nd4r.vercel.app)
 
 ---
