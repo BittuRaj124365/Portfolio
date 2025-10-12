@@ -1,8 +1,4 @@
-# Bittu's Portfolio
-
-![Portfolio Screenshot](./public/preview.jpeg)
-
-
+## Hii, welcome to this repo
 ---
 
 
@@ -54,6 +50,14 @@ Live Site: [🌐 https://portfolio-nd4r.vercel.app](https://portfolio-nd4r.verce
 - **Deployment:** Vercel  
 
 ---
+
+
+# Portfolio Overview
+
+![Portfolio Screenshot](./public/preview.jpeg)
+
+---
+
 
 ## Installation
 To run the project locally:
