@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./About.module.css";
 import InteractiveImage from "../../ImageStyle/InteractiveStyle";
+import profileImage from "../../assets/image.png"
 const About = () => {
   return (
     <>
@@ -29,7 +30,7 @@ const About = () => {
         </h5>
         <div className={style.image}>
           {/* <img src="/src/assets/image.png" alt="img" /> */}
-          <InteractiveImage src="/src/assets/image.png" alt="img" />
+          <InteractiveImage src={profileImage} alt="img" />
         </div>
       </div>
     </>

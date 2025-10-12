@@ -6,7 +6,7 @@
   color: #fff;
   border-radius: 10px;
   margin: 2rem 0;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   padding: 1.5rem;
   flex-wrap: wrap;
   transition: transform 0.3s;
@@ -47,8 +47,10 @@
 }
 @media (max-width: 768px) {
   .image {
-    width: fit-content;
-    height: fit-content;
+    /* width: fit-content; */
+    width:350px;
+    height:300px;
+    /* height: fit-content; */
     border-radius: 3px;
     object-fit: cover;
   }
