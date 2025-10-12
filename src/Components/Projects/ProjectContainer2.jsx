@@ -3,7 +3,7 @@ import ProjectStructure from "./Project2/ProjectStructure2";
 import styles from "./Project2/ProjectStructure2.module.css";
 import porject4 from "../../assets/project4.jpg";
 import project5 from "../../assets/project5.png";
-import projectImage6 from "../../assets/Project6.png";
+import projectImage6 from "../../assets/project6.png";
 const ProjectContainer2 = () => {
   const projects = [
     {
