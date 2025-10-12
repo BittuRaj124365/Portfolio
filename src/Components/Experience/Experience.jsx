@@ -28,7 +28,7 @@ const Experience = () => {
           <img
             // src="/src/assets/certificate.png"
             src={certificate1Image}
-            alt="Jaipur Hackathon"
+            alt="Microsoft cum Linkedin certification"
             className={styles.ExperienceImage}
           />
           <p className={styles.Description}>
