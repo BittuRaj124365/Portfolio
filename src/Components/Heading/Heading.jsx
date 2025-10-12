@@ -4,13 +4,13 @@ import { GiBookAura } from "react-icons/gi";
 const Heading = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
-  const [showNav, setShowNav] = useState(true); //controls visibility
+  const [showNav, setShowNav] = useState(true); 
   const [lastScrollY, setLastScrollY] = useState(0);
-  // Detect window resize
+  // for Detecting window resize
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
-      if (window.innerWidth > 768) setIsOpen(false); // reset toggle on desktop
+      if (window.innerWidth > 768) setIsOpen(false); 
     };
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
