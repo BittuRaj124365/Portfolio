@@ -3,7 +3,7 @@ import ProjectStructure from "./Project2/ProjectStructure2";
 import styles from "./Project2/ProjectStructure2.module.css";
 import porject4 from "../../assets/project4.jpg";
 import project5 from "../../assets/project5.png";
-import project6 from "../../assets/Project6.png";
+import projectImage6 from "../../assets/Project6.png";
 const ProjectContainer2 = () => {
   const projects = [
     {
@@ -25,7 +25,7 @@ const ProjectContainer2 = () => {
       // liveLink: "#",
     },
     {
-      image: project6,
+      image: projectImage6,
       title: "6.Account Registration",
       description:
         "This project is a simple, console-based User Management System built using Object-Oriented Programming (OOPs) principles in C++. The system provides core functionalities required to manage user accounts within an application.",
