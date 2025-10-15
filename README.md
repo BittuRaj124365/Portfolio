@@ -1,8 +1,12 @@
 ## Hii, welcome to this repo
 ---
 
+<<<<<<< HEAD
 
 ## Some layouts and dimensions of the repo
+=======
+![Portfolio Screenshot](./public/preview.jpeg)
+>>>>>>> 02e5e27 (fix)
 
 
 ---
