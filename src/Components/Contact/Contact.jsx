@@ -19,22 +19,22 @@ const Contact = () => {
 
       {/* Links */}
       <div className="flex flex-wrap justify-center gap-8 mb-10">
-        <a href="https://github.com/BittuRaj124365" className={styles.icon}>
+        <a href="https://github.com/BittuRaj124365" className={`${styles.icon} ${styles.github}`}>
           <FaGithub />
         </a>
         <a
           href="https://linkedin.com/in/bittu-raj-1421a8294"
-          className={styles.icon}
+          className={`${styles.icon} ${styles.linkedin}`}
         >
           <FaLinkedin />
         </a>
-        <a href="https://instagram.com/rajb2_" className={styles.icon}>
+        <a href="https://instagram.com/rajb2_" className={`${styles.icon} ${styles.instagram}`}>
           <FaInstagram />
         </a>
-        <a href="https://x.com/b2paradox_?s=21" className={styles.icon}>
+        <a href="https://x.com/b2paradox_?s=21" className={`${styles.icon} ${styles.twitter}`}>
           <FaTwitter />
         </a>
-        <a href="mailto:bitturaj124365@gmail.com" className={styles.icon}>
+        <a href="mailto:bitturaj124365@gmail.com" className={`${styles.icon} ${styles.envelope}`}>
           <FaEnvelope />
         </a>
       </div>

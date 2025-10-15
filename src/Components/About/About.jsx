@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./About.module.css";
 import InteractiveImage from "../../ImageStyle/InteractiveStyle";
-import profileImage from "/image.png"
+import profileImage from "/profileImage.jpg"
 const About = () => {
   return (
     <>

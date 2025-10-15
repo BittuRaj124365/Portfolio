@@ -4,15 +4,41 @@
 }
 .icon {
   font-size: 1.8rem;
-  color:black;
+  /* color:black; */
   transition: all 0.3s ease;
   position: relative;
 }
 
-.icon:hover {
+/* .icon:hover {
   color:#4fa8a5;
   transform: translateY(-5px) scale(1.1);
   filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.3));
+} */
+.icon.github:hover{
+  color:black;
+  transform: translateY(-5px) scale(1.1);
+  filter: drop-shadow(0 0 6px #333);
+}
+.icon.linkedin:hover {
+  color:#0077b5;
+  transform: translateY(-5px) scale(1.1);
+  filter: drop-shadow(0 0 6px #333);
+}
+.icon.instagram:hover {
+  color: #E1306C;
+  transform: translateY(-5px) scale(1.1);
+  filter: drop-shadow(0 0 6px #333);
+  border:20px;
+}
+.icon.twitter:hover {
+  color: #1DA1F2;
+  transform: translateY(-5px) scale(1.1);
+  filter: drop-shadow(0 0 6px #333);
+}
+.icon.envelope:hover {
+  color: #D44638; 
+  transform: translateY(-5px) scale(1.1);
+  filter: drop-shadow(0 0 6px #333);
 }
 .resumeBtn {
   background: linear-gradient(135deg, #579c9c, #6b806e);
@@ -57,4 +83,3 @@
   opacity: 0.95;
   transition: all 0.3s ease;
 }
-

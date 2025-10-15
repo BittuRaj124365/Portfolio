@@ -10,7 +10,9 @@
 .head {
   color: rgb(17, 20, 20);
   font-size: large;
-  margin-left: 6rem;
+  /* margin-left: 6rem; */
+  justify-content: center;
+  text-align: center;
   color: #ccdcf6;
   letter-spacing: 2px;
   transition: all 0.2s ease;
@@ -34,11 +36,11 @@
   .about {
     flex-direction: column;
   }
-  .about p {
+  /* .about p {
     text-align: left;
     margin-bottom: 1rem;
     margin: 0;
-  }
+  } */
 }
 
 /* Image container */
@@ -67,10 +69,10 @@
     text-align: center;
   }
 
-  .about p {
+  /* .about p {
     font-size: 0.95rem;
     text-align: center;
-  }
+  } */
 
   .image img {
     width: 50%; /* take full width on mobile */
@@ -79,8 +81,14 @@
     margin-top: 1.5rem;
     justify-content: center;
     align-items: center;
-    margin-left:3rem;
+    margin-left:4rem;
     transition: transform 0.3s ease;
     border-radius: 10px;
+  }
+  h3{
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* margin-right:5rem; */
   }
 }
