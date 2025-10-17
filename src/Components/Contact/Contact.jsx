@@ -6,6 +6,7 @@ import {
   FaInstagram,
   FaTwitter,
   FaEnvelope,
+  FaTwitter
 } from "react-icons/fa";
 const Contact = () => {
   return (
